@@ -7,8 +7,8 @@ public class EnemyAI : MonoBehaviour {
 
     [SerializeField] private State _startingState;
     [SerializeField] private float _roamingDistanceMax = 7f;
-    [SerializeField] private float _roamimgDistanceMin = 3f;
-    [SerializeField] private float _roamimgTimerMax = 2f;
+    [SerializeField] private float _roamingDistanceMin = 3f;
+    [SerializeField] private float _roamingTimerMax = 2f;
 
     [SerializeField] private bool _isChasingEnemy = false;
     [SerializeField] private float _chasingDistance = 4f;
